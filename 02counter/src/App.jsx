@@ -12,7 +12,11 @@ function App() {
   const addvalue = () => {
      // counter=counter+1
     // console.log("value added",Math.random()*10);
-    setCounter(counter+1)
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
+    setCounter(prevcounter => prevcounter + 1)
     console.log(counter)
   }
 
